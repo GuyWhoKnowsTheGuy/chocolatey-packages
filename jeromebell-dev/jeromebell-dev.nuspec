@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>jeromebell-dev</id>
+    <version>0.1.0</version>
+    <owners>Jerome Bell</owners>
+    <title>Jerome Bell's Base Development Environment</title>
+    <authors>Jerome Bell</authors>
+    <projectUrl>https://github.com/Heteroculturalism/chocolatey-packages</projectUrl>
+    <tags>Jerome Bell Development</tags>
+    <summary>Jerome Bell's base development environment</summary>
+    <description>Jerome Bell's base development environment</description>
+    <dependencies>
+      <dependency id='7zip' />
+      <dependency id='notepadplusplus' />
+      <dependency id='git.install' />
+      <dependency id='tortoisegit' />
+	  </dependencies>
+  </metadata>
+</package>
