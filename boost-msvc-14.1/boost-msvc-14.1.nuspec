@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>boost-msvc-14.1</id>
+    <version>1.67.0</version>
+    <title>Boost for MSVC 14.1</title>
+    <authors>Jeff Garland, Beman Dawes, Carl Daniel, Dave Abrahams, Douglas Gregor, John Maddock</authors>
+    <owners>Jerome Bell</owners>
+    <licenseUrl>http://www.boost.org/LICENSE_1_0.txt</licenseUrl>
+    <projectUrl>http://sourceforge.net/projects/boost</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Boost provides free portable peer-reviewed C++ libraries. The emphasis is on portable libraries which work well with the C++ Standard Library.</description>
+    <summary>Boost headers and libs compiled with Visual Studio 2015 for 32bit and 64bit Windows.</summary>
+    <releaseNotes>http://www.boost.org/users/history/version_1_67_0.html</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>boost c++ msvc msvc-14.1</tags>
+  </metadata>
+</package>
