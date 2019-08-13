@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>qt-msvc2017x64</id>
+    <version>5.9.5</version>
+    <title>Qt for MSVC 2017 x64</title>
+    <authors>Jerome Bell</authors>
+    <owners>Jerome Bell</owners>
+    <licenseUrl>https://www.qt.io/licensing/</licenseUrl>
+    <projectUrl>https://www.qt.io/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Qt for MSVC 2017 x64</description>
+    <summary>Qt for MSVC 2017 x64</summary>
+    <copyright>Copyright 2019</copyright>
+    <tags>Qt msvc2017</tags>
+  </metadata>
+</package>
