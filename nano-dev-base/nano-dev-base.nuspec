@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nano-dev-base</id>
+    <version>20.0.0</version>
+    <owners>Jerome Bell</owners>
+    <title>Nano Base Development Environment</title>
+    <authors>Jerome Bell</authors>
+    <projectUrl>https://github.com/Heteroculturalism/chocolatey-packages</projectUrl>
+    <tags>Nano crytocurrency development</tags>
+    <summary>A base development environment for Nano (sans Visual Studio)</summary>
+    <description>A base development environment for Nano (sans Visual Studio)</description>
+    <dependencies>
+      <dependency id='boost-msvc-14.1' />
+      <dependency id='qt-msvc2017x64' />
+      <dependency id='git' />
+      <dependency id='cmake' />
+	</dependencies>
+  </metadata>
+</package>

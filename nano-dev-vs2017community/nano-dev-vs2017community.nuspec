@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>nano-dev-vs2017community</id>
+    <version>20.0.0</version>
+    <owners>Jerome Bell</owners>
+    <title>Nano Base Development Environment w/ Visual Studio 2017 Community</title>
+    <authors>Jerome Bell</authors>
+    <projectUrl>https://github.com/Heteroculturalism/chocolatey-packages</projectUrl>
+    <tags>Nano crytocurrency development VS2017</tags>
+    <summary>A base development environment for Nano for Visual Studio 2017 Community</summary>
+    <description>A base development environment for Nano for Visual Studio 2017 Community</description>
+    <dependencies>
+      <dependency id='nano-dev-base' />
+      <dependency id='visualstudio2017community' />
+      <dependency id='visualstudio2017-workload-nativedesktop' />
+	</dependencies>
+  </metadata>
+</package>
