@@ -7,7 +7,11 @@
     <authors>Jeff Garland, Beman Dawes, Carl Daniel, Dave Abrahams, Douglas Gregor, John Maddock</authors>
     <owners>Jerome Bell</owners>
     <licenseUrl>http://www.boost.org/LICENSE_1_0.txt</licenseUrl>
-    <projectUrl>http://sourceforge.net/projects/boost</projectUrl>
+	<projectUrl>http://www.boost.org</projectUrl>
+    <projectSourceUrl>https://github.com/boostorg/boost</projectSourceUrl>
+	<docsUrl>https://www.boost.org/doc/</docsUrl>
+	<mailingListUrl>https://www.boost.org/community/groups.html</mailingListUrl>
+	<bugTrackerUrl>https://www.boost.org/development/bugs.html</bugTrackerUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Boost provides free portable peer-reviewed C++ libraries. The emphasis is on portable libraries which work well with the C++ Standard Library.</description>
     <summary>Boost headers and libs compiled with Visual Studio 2015 for 32bit and 64bit Windows.</summary>
