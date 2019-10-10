@@ -4,14 +4,25 @@
     <id>qt-msvc2017x64</id>
     <version>5.9.5</version>
     <title>Qt for MSVC 2017 x64</title>
-    <authors>Jerome Bell</authors>
+    <authors>Qt Group</authors>
     <owners>Jerome Bell</owners>
     <licenseUrl>https://www.qt.io/licensing/</licenseUrl>
     <projectUrl>https://www.qt.io/</projectUrl>
+    <projectSourceUrl>https://code.qt.io/cgit/</projectSourceUrl>
+	<docsUrl>https://doc.qt.io/</docsUrl>	
+	<mailingListUrl>https://forum.qt.io/</mailingListUrl>
+	<bugTrackerUrl>https://bugreports.qt.io/secure/Dashboard.jspa</bugTrackerUrl>
+	<packageSourceUrl>https://github.com/Heteroculturalism/chocolatey-packages</packageSourceUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Qt for MSVC 2017 x64</description>
     <summary>Qt for MSVC 2017 x64</summary>
-    <copyright>Copyright 2019</copyright>
+    <copyright>© 2019 The Qt Company</copyright>
     <tags>Qt msvc2017</tags>
+    <dependencies>
+      <dependency id='vcredist140' />
+	</dependencies>
   </metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
 </package>

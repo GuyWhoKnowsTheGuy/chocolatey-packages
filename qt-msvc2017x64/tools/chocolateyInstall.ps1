@@ -1,4 +1,6 @@
-$installScript = join-path $(split-path -parent $MyInvocation.MyCommand.Definition) "qt-installer-noninteractive.qs"
+$installScript = join-path $(split-path -parent $MyInvocation.MyCommand.Path) "qt-installer-noninteractive.qs"
+
+write-output "*************************script path: $installScript"
 
 Install-ChocolateyPackage `
     -packageName 'qt-msvc2017x64' `
