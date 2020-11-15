@@ -1,5 +1,5 @@
 Install-ChocolateyPackage `
-    -packageName 'boost-msvc12' `
+    -packageName 'boost-msvc14.1' `
     -installerType 'exe' `
     -silentArgs '/VERYSILENT' `
     -url 'https://downloads.sourceforge.net/project/boost/boost-binaries/1.74.0/boost_1_74_0-msvc-14.1-32.exe' `
